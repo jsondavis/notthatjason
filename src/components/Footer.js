@@ -49,7 +49,6 @@ const Footer = () => {
                 </a>
                 <a title="twitter" href="https://twitter.com" className="dib mw3 mr3">
                     <img
-                        className="fas fa-lg"
                         src={twitter}
                         alt="Twitter"
                         className="h2 w2 dim"
