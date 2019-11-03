@@ -1,10 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import { Footer } from '../Footer/'
+import { Navbar } from '../Navbar/'
 // import './all.sass'
 import './layout.scss'
-import useSiteMetadata from './SiteMetadata'
+import useSiteMetadata from '../SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
@@ -50,7 +50,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <div className="mw-none mw8-ns center bg-white pa3 ph5-ns near-black">{children}</div>
+      <div className="mw-none mw8-ns center bg-white ph3 ph5-ns pt5 near-black">{children}</div>
       <Footer />
     </div>
   )
