@@ -23,8 +23,8 @@ const Footer = () => {
                 <Link className="link dim black f6 f5-ns dib mr3" to="/about">
                     About
                 </Link>
-                <Link className="link dim black f6 f5-ns dib mr3" to="/products">
-                    Products
+                <Link className="link dim black f6 f5-ns dib mr3" to="/projects">
+                    Projects
                 </Link>
                 <Link className="link dim black f6 f5-ns dib mr3" to="/contact/examples">
                     Form Examples

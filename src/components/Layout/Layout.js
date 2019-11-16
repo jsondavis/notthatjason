@@ -4,13 +4,13 @@ import { Footer } from '../Footer/'
 import { Navbar } from '../Navbar/'
 // import './all.sass'
 import './layout.scss'
-import useSiteMetadata from '../SiteMetadata'
+import { useSiteMetadata } from '../SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div className="sans-serif">
+    <div className="avenir">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

@@ -9,9 +9,10 @@ const Navbar = () => {
             className="bg-near-black fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l"
             role="navigation"
             aria-label="main-navigation"
+            style={{'zIndex': '10'}}
         >
             <div id="navMenu" className="ph2 ph3-ns tc-ns"> 
-                <div className="navbar-start has-text-centered">
+                <div className="navbar-start has-text-centered ttu">
                     <Link className="link dim white f6 f5-ns dib mr3" to="/about">
                         About
                     </Link>
