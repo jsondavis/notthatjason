@@ -1,9 +1,24 @@
-# Project dependencies
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+# random stuff
 node_modules
 .cache/
-# Build directory
-public/
-static/admin/*.bundle.*
 .DS_Store
-yarn-error.log
+.vscode
+.prettierignore
+
+### Hugo ###
+
+# Generated files by hugo
+/public/
+/exampleSite/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+.hugo_build.lock
+
