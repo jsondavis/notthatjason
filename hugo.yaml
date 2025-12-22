@@ -164,9 +164,8 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in Savannah, GA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am a software developer with a focus on web development. I have a background in Biology and have experience in many fields. I have a strong interest in new technology and in making things I work with easier to use. I am currently working as an Operations Manager at Fully Involved Logistics, LLC. in Hardeeville, SC.
+      
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -175,65 +174,69 @@ params:
         - "CSS"
         - "JavaScript"
         - "React"
-        - "Node"
-        - "Express"
+        - "NestJS"
+        - "Golang"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "Fully Involved Logistics"
+        companyUrl: ""
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
-              content: Working as a senior software developer
+          - name: "Operations Manager"
+            date: "Mar 2025 - present"
+            content: "I am currently working as an Operations Manager at Fully Involved Logistics, LLC. in Hardeeville, SC. Currently my work mainly involves organization of crews, materials and vehicle dispatching. I'm working to involve newer technology where possible to streamline workflows, such as moving to Quo (Openphone) to manager our main customer service line."
+            # info:
+              # content: Working as an Operations Manager
             featuredItems:
               fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
+                # - icon: fa-brands fa-react
+                #   url: https://react.dev/
+                #   tooltip: Example tooltip content
+                # - icon: fab fa-x-twitter
+                #   url: https://example.com
                   # tooltip: Example tooltip content
               customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+                # - icon: /fav.png
+                #   url: "https://example.com"
+                #  tooltip: Example tooltip content
 
-      - company: "Amazon"
-        companyUrl: "https://example.com"
+      - company: "Montra Solutions, LLC"
+        companyUrl: "https://montra.io/"
         jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
+          - name: "Senior Software Engineer"
+            date: "Sep 2022 - Sept 2024"
+            # info:
+            #  content: I worked as a senior software engineer for two years at Montra.
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              I worked as a senior software engineer at [Montra.](https://montra.io/) remotely from Savannah, GA. The primary software product at Montra is the VIA Platform. VIA has many facets including device management and shipping, personnel and software license management, IT ticketing support. VIA also served as the shipping and tracking platform for any physical hardware support being performed.
 
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
+              - Lead develoment for several integrations (FedEx and ADP).
+              - Added automated UI testing using Playwright and added to Azure DevOps deployments.
+              - Updated UI build process to use Vite instead of Webpack.
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-vuejs
+                  url: https://vuejs.org/
+                  # tooltip: Example tooltip content
 
-      - company: "Apple"
-        companyUrl: "https://example.com"
+
+      - company: "Vecima Networks Inc."
+        companyUrl: "https://vecima.com/"
         jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
+        - name: "Software Engineer"
+          date: "July 2021 - Sept 2022"
           featuredItems:
             fontAwesomeIcons:
               - icon: fa-brands fa-react
                 url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
+              - icon: fab fa-golang
+                url: https://go.dev/
+            # customIcons:
+            #   - icon: /fav.png
+            #     url: "https://example.com"
           content: |
             I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
@@ -264,22 +267,22 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Science in Biology"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "University of Georgia"
+          url: "https://www.uga.edu/"
+        date: "2003 - 2006"
+          # GPA: "3.8 out of 5.0"
         content: |-
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+      - title: "Associate of Science in Biology"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Georgia Perimeter College"
+          url: "https://perimeter.gsu.edu/"
+        date: "2001 - 2003"
+          # GPA: "3.9 out of 5.0"
         content: |-
           I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
@@ -378,7 +381,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: Reach out to me about anything at all.  I'll do my best to get back to you as soon as possible.
-    btnName: Mail me
+    btnName: email me
     btnLink: mailto:jason@notthatjason.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -390,7 +393,7 @@ params:
   footer:
     recentPosts:
       path: "blogs"
-      count: 3
+      count: 2
       title: Recent Posts
       enable: false
       disableFeaturedImage: false
@@ -410,7 +413,7 @@ params:
     socialShare: true
     readTime:
       enable: true
-      content: "min read"
+      content: " min read"
     scrollprogress:
       enable: true
     tags:
