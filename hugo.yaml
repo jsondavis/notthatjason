@@ -240,16 +240,20 @@ params:
           content: |
             While at [Vecima.](https://vecima.com/) I worked remotely from Savannah, GA.  Vecima has a wide array of software products however my main focus was the improvement and maintenance of the MediaScale IQ streaming monitoring platform. Golang backend and ReactJS frontend. Managed local Docker development environments and GitLab CI pipelines for efficient deployment. Contributed to the improvement of internal service analytics and testing frameworks to enhance monitoring capabilities.
 
-      - company: "Scientific Games"
-        companyUrl: "https://example.com"
+      - company: "Scientific Games Corporation"
+        companyUrl: "https://www.scientificgames.com/"
         jobs:
-        - name: "Seniour Software Developer"
-          date: "June 2017 - Nov 2019"
+        - name: "Advanced Software Engineer"
+          date: "March 2015 - July 2021"
           content: |
             I worked as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
             - Lead backend developer for a product.
             - Created a frontend design for a product.
+
+        - name: "Senior Software Developer"
+          content: |
+            I was hired at Scien
 
       - company: "Google"
         companyUrl: "https://example.com"
