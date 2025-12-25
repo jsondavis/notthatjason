@@ -283,7 +283,7 @@ params:
         date: "2001 - 2003"
           # GPA: "3.9 out of 5.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          I had begun taking classes at GPC as part of a High School joint enrollment program.
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
           - Face mask detection using a single convolutional neural network.
 
@@ -297,7 +297,7 @@ params:
       - title: "High School"
         school:
           name: "Collins Hill High School"
-          url: "https://example.org"
+          url: "https://collinshillhs.gcpsk12.org/"
             # GPA: "4.2 out of 5.0"
             # featuredLink:
             #   enable: true
