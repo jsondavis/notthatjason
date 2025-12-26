@@ -240,27 +240,43 @@ params:
           content: |
             While at [Vecima.](https://vecima.com/) I worked remotely from Savannah, GA.  Vecima has a wide array of software products however my main focus was the improvement and maintenance of the MediaScale IQ streaming monitoring platform. Golang backend and ReactJS frontend. Managed local Docker development environments and GitLab CI pipelines for efficient deployment. Contributed to the improvement of internal service analytics and testing frameworks to enhance monitoring capabilities.
 
+            - Migrated Golang backend to Go modules
+            - Added new reporting data to ELK via Apache Traffic Control extension
+
       - company: "Scientific Games Corporation"
         companyUrl: "https://www.scientificgames.com/"
         jobs:
         - name: "Advanced Software Engineer"
           date: "March 2015 - July 2021"
           content: |
-            I worked as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+            I worked as a Senior Software Developer and later an Advanced Software Engineer at [Scientific Games.](https://www.scientificgames.com/) in Alpharetta, GA. My work was primarily as part of the Second Chance Bonus Zone (SCBZ) team.  We would create themed responsive sites for online entry forms and drawing results display within two to three weeks with an additional two weeks of QA. All of these sites were required to render on all majory browsers (IE9, Chrome, Safari) and within the SCBZ Cordova mobile app. Later I began working on larger loyalty programs which involved moving from the initial stack of mostly jQuery or React sites deployed in front of an in house php engine to a Gatsby / React front end and a Laravel API.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
+            - Created a frontend Gulp build pipeline for the SCBZ sites.
+            - Created Docker Compose scripts for local development
+            - Implemented Storybook for frontend testing of more complicated entry displays (prize wheels)
+            - Maintained a game hosting platform for mini games which displayed entry results.
 
-        - name: "Senior Software Developer"
-          content: |
-            I was hired at Scien
+          featuredItems:
+            fontAwesomeIcons:
+              - icon: fa-brands fa-react
+                url: https://react.dev/
+              - icon: fa-brands fa-gulp
+                url: https://gulpjs.com/
+              - icon: fa-brands fa-sass
+                url: https://www.sasscss.com/
+              - icon: fa-brands fa-less
+                url: https://lesscss.org/
 
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        # - name: "Senior Software Developer"
+        #   content: |
+        #     I was hired at Scien
+
+      # - company: "Google"
+      #   companyUrl: "https://example.com"
+      #   jobs:
+      #   - name: "Product Designer"
+      #     date: "Feb 2016 - Mar 2017"
+      #     content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
@@ -275,7 +291,7 @@ params:
         date: "2003 - 2006"
           # GPA: "3.8 out of 5.0"
         content: |-
-          Focused on Biology and Marine Sciences. Extracurricular Activities included trips to Sapelo Island as well as a spring break lab study trip to Key Largo. The fall before I graduated I joined the National Park Service Exotic Plant Management Team as part of an Americorps internship program. In this program I worked out of an office in Asheville, NC and spent 6 months applying mechanical and chemical treatments to invasive exotic plants plaguing National Parks such as kudzu .
+          Focused on Biology and Marine Sciences. Extracurricular Activities included trips to Sapelo Island as well as a spring break lab study trip to Key Largo. The fall before I graduated I joined the National Park Service Exotic Plant Management Team as part of an Americorps internship program. During my time in this program I worked out of an office in Asheville, NC and spent 6 months applying various mechanical and chemical treatments to invasive exotic plants plaguing National Parks such as kudzu and wisteria.
       - title: "Associate of Science in Biology"
         school:
           name: "Georgia Perimeter College"
@@ -283,21 +299,16 @@ params:
         date: "2001 - 2003"
           # GPA: "3.9 out of 5.0"
         content: |-
-          I had begun taking classes at GPC as part of a High School joint enrollment program.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          I had begun taking classes at GPC as part of a High School joint enrollment program and decided to continue my coursework there before transferring to a Bachelor's degree program.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         # featuredLink:
         #   enable: true
         #   name: "My academic record"
         #   url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Collins Hill High School"
-          url: "https://collinshillhs.gcpsk12.org/"
+        # - title: "High School"
+        # school:
+        #  name: "Collins Hill High School"
+        #  url: "https://collinshillhs.gcpsk12.org/"
             # GPA: "4.2 out of 5.0"
             # featuredLink:
             #   enable: true
