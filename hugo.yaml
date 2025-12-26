@@ -168,7 +168,7 @@ params:
       
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Below are a few technologies I've been working with recently in my personal projects:"
       items:
         - "HTML"
         - "CSS"
@@ -269,7 +269,10 @@ params:
 
         # - name: "Senior Software Developer"
         #   content: |
-        #     I was hired at Scien
+
+      - company: "Turnstile Publishing"
+
+      - company: "Nassau Lens Co."
 
       # - company: "Google"
       #   companyUrl: "https://example.com"
@@ -316,7 +319,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -338,7 +341,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
